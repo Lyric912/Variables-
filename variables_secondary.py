@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: <Lyric Marner>
+# date: <July 2, 2021>
 #
 # description: <fill in>
 
@@ -45,4 +45,9 @@
 #       - Addition with itself and an equation
 #           - Example Equation: ((10 - 2) * (4 + 3) - 1) * 15
 #
-
+x = 2
+x += 9
+x -= 7
+x *= 5 
+x /= 4
+x += ((18-9)*3/3+90)  

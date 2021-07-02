@@ -1,5 +1,5 @@
-# author: <name here>
-# date: <date here>
+# author: <Lyric Marner>
+# date: <July 2, 2021>
 #
 # description: <fill in>
 
@@ -21,12 +21,17 @@
 #
 # Example Code
 example_name = 'elia'
-print('EXAMPLE: my name is', example_name)
+#print('EXAMPLE: my name is', example_name)
 
 # WRITE CODE BELOW
+my_name = 'Lyric'
+my_birthday = 'September 12, 2006'
+animal = 'panda'
 
-
-
+print('My name is', my_name)
+print('My birthday is', my_birthday)
+print('A', animal, 'is cute animal that I like')
+print()
 # 1.2 | Variable Creation | Integers / Floats
 #
 # Relevant Documentation
@@ -45,9 +50,16 @@ print('EXAMPLE: my name is', example_name)
 #   5) Print each variable, describing the value you print.
 
 # WRITE CODE BELOW
+fav_num = '1'
+birth_day = '12'
+neg_num = '-6'
+dec_num = '18.3'
 
-
-
+print('My favorite number is', fav_num)
+print('The day of the month of my birthday is cool, it\'s', birth_day)
+print('A negative number is a number below zero, like', neg_num)
+print('A float is a decimal point number, an example of one would be', dec_num)
+print()
 # 1.3 | Overwriting Variables
 #
 # Relevant Documentation
@@ -63,13 +75,18 @@ print('EXAMPLE: my name is', example_name)
 #   4) Print the variables you've overwritten, describing the values you print.
 #
 # Example Code
-example_name = 'lucia'
-print('EXAMPLE: my new name is', example_name)
+#example_name = 'lucia'
+#print('EXAMPLE: my new name is', example_name)
 
 # WRITE CODE BELOW
+my_name = 'Imani'
+my_birthday = 'December 24th, 2006'
+fav_num = '8' 
 
-
-
+print('My new name is', my_name)
+print('I think the best birthday would be', my_birthday)
+print('An unlucky number might possibly be', fav_num)
+print()
 # 1.4 | Operations
 #
 # Relevant Documentation
@@ -92,6 +109,20 @@ print('EXAMPLE: my new name is', example_name)
 #
 # Example Code
 example_sum = 11 + 21
-print('EXAMPLE: the sum of 11 and 21 is', example_sum)
+#print('EXAMPLE: the sum of 11 and 21 is', example_sum)
 
 # WRITE CODE BELOW
+num1 = 10+10
+num2 = 3 * 3 * 2
+num3 = 20/18
+num4 = 'lyric' + 'panda'
+num5 = 'ttyl' * 12
+num6 =  7 - 7 - 8
+num7 = 1**2
+print('The sum of 10 and 10 is', num1)
+print('The product of 3 times 3 times 2 is', num2)
+print('20 divided by 18 is', num3)
+print('My name combined with an animal I like, in this case a panda, looks like', num4)
+print('If you duplicate ttyl 12 times it looks like', num5)
+print('7 minus 7 minus 8 is', num6)
+print('1 squared is', num7)

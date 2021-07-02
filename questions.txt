@@ -2,15 +2,15 @@ name: <name here>
 date: <date here>
 
 1) What is a variable?
-
+A variable is a named memory location that stores data and value.
 
 
 2) Are variable names case-sensitive? Is a variable named a the same as a variable named A?
-
+Variable names are case-sensitive which means that an uppercase letter is not the same as a lowercase letter. So, "A" as a part of a variable name is not the same as "a".
 
 
 3) What characters are you allowed to use in a variable name?
-
+You can use characters such as lowercase a-z, uppercase A-Z, numbers 0-9, and underscores(_).
 
 
 3) Can a variable that originally holds a string hold a different type later on?
@@ -21,7 +21,7 @@ date: <date here>
     x = 5
     y = x
    What is the value of y?
-
+The value of y would be whatever the current value of x is at the time. In the case y would be 5 because at the moment, x's value is 5. 
 
 
 5) Does using the variable in an operation cause the variable's value to change? How can you cause a variable's value
